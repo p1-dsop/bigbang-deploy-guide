@@ -34,6 +34,7 @@
   </div>
   <div class="stackedit__right">
     <div class="stackedit__html">
+      <p><strong>Prepared by: CSU DSOP SWAT Team</strong></p>
       <h1 id="step-by-step-installing-big-bang-on-azure-government">Step by Step: Installing Big Bang on Azure Government</h1>
 <p><a href="https://microsoft-my.sharepoint.com/personal/scheruvu_microsoft_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fscheruvu%5Fmicrosoft%5Fcom%2FDocuments%2FRecordings%2F%28optional%29%20repo1%20BigBang%20MAG%20walkthrough%20deploy%2D20220404%5F150424%2DMeeting%20Recording%2Emp4&amp;parent=%2Fpersonal%2Fscheruvu%5Fmicrosoft%5Fcom%2FDocuments%2FRecordings&amp;ga=1">https://microsoft-my.sharepoint.com/personal/scheruvu_microsoft_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fscheruvu_microsoft_com%2FDocuments%2FRecordings%2F(optional) repo1 BigBang MAG walkthrough deploy-20220404_150424-Meeting Recording.mp4&amp;parent=%2Fpersonal%2Fscheruvu_microsoft_com%2FDocuments%2FRecordings&amp;ga=1</a></p>
 <h2 id="prerequisites">Prerequisites</h2>
@@ -185,7 +186,7 @@ git push
 </ul>
 <p>For this next command, pace your <em>docker-username</em> and <em>docker-password</em> with your <strong>IronBank Username</strong> and <strong>Registry1 CLI Secret</strong>.<br>
 <img src="https://i.imgur.com/lbU0NBN.png" alt="enter image description here"></p>
-<pre><code>kubectl create secret docker-registry private-registry --docker-server=registry1.dso.mil --docker-username=rcleetus --docker-password=FpNncaeCATywvNWRjlb4s2aAuHQsdU9U -n flux-system
+<pre><code>kubectl create secret docker-registry private-registry --docker-server=registry1.dso.mil --docker-username=rcleetus --docker-password=######## -n flux-system
 </code></pre>
 <ul>
 <li>Create Git credentials for Flux (so that it can access your Git repo):<br>
